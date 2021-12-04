@@ -1,0 +1,10 @@
+transformers==4.4.2
+matplotlib==3.1.1
+numpy==1.17.0
+jieba==0.42.1
+gensim==3.8.3
+pandas==1.1.2
+tqdm==4.46.0
+python_Levenshtein==0.12.2
+scikit_learn==0.24.2
+translators==4.9.5

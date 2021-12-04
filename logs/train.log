@@ -1,0 +1,41 @@
+[Fri, 24 Sep 2021 08:57:58] INFO [<module>: train_model.py, 59] pid:41232
+[Fri, 24 Sep 2021 08:58:09] INFO [acquire: filelock.py, 274] Lock 140365409771416 acquired on /root/.cache/huggingface/transformers/ebc33cec9cd4890c20bd3b688fbf8e907167e0e2f209b801b3159123cd4630e4.d863eb12d1b0d00e5d41e9eb0d41914e4993c03e6de69e67bc10c79818f5fd4d.lock
+[Fri, 24 Sep 2021 08:58:12] INFO [release: filelock.py, 318] Lock 140365409771416 released on /root/.cache/huggingface/transformers/ebc33cec9cd4890c20bd3b688fbf8e907167e0e2f209b801b3159123cd4630e4.d863eb12d1b0d00e5d41e9eb0d41914e4993c03e6de69e67bc10c79818f5fd4d.lock
+[Fri, 24 Sep 2021 09:06:51] INFO [<module>: train_model.py, 59] pid:42165
+[Fri, 24 Sep 2021 09:07:01] INFO [acquire: filelock.py, 274] Lock 139685739964176 acquired on /root/.cache/huggingface/transformers/ebc33cec9cd4890c20bd3b688fbf8e907167e0e2f209b801b3159123cd4630e4.d863eb12d1b0d00e5d41e9eb0d41914e4993c03e6de69e67bc10c79818f5fd4d.lock
+[Fri, 24 Sep 2021 09:08:46] INFO [release: filelock.py, 318] Lock 139685739964176 released on /root/.cache/huggingface/transformers/ebc33cec9cd4890c20bd3b688fbf8e907167e0e2f209b801b3159123cd4630e4.d863eb12d1b0d00e5d41e9eb0d41914e4993c03e6de69e67bc10c79818f5fd4d.lock
+[Fri, 24 Sep 2021 09:09:02] INFO [<module>: train_model.py, 59] pid:42505
+[Fri, 24 Sep 2021 09:11:02] INFO [<module>: train_model.py, 59] pid:43019
+[Fri, 24 Sep 2021 09:12:19] INFO [model_train: train_model.py, 366] fold:0, epoch:0, train_loss:1.4406, train_acc:0.3084, val_loss:1.2862, val_f1:0.4351
+[Fri, 24 Sep 2021 09:13:30] INFO [model_train: train_model.py, 366] fold:0, epoch:1, train_loss:1.1786, train_acc:0.4448, val_loss:1.2133, val_f1:0.4481
+[Fri, 24 Sep 2021 09:14:40] INFO [model_train: train_model.py, 366] fold:0, epoch:2, train_loss:1.0676, train_acc:0.5260, val_loss:1.2042, val_f1:0.4675
+[Fri, 24 Sep 2021 09:15:50] INFO [model_train: train_model.py, 366] fold:0, epoch:3, train_loss:0.9287, train_acc:0.6429, val_loss:1.0872, val_f1:0.5260
+[Fri, 24 Sep 2021 09:17:05] INFO [model_train: train_model.py, 366] fold:0, epoch:4, train_loss:0.7120, train_acc:0.7549, val_loss:1.1389, val_f1:0.5260
+[Fri, 24 Sep 2021 09:18:15] INFO [model_train: train_model.py, 366] fold:0, epoch:5, train_loss:0.5486, train_acc:0.8312, val_loss:1.2047, val_f1:0.5065
+[Fri, 24 Sep 2021 10:06:04] INFO [<module>: train_model.py, 59] pid:52700
+[Fri, 24 Sep 2021 10:07:14] INFO [<module>: train_model.py, 59] pid:53083
+[Fri, 24 Sep 2021 10:07:22] INFO [load: utils.py, 431] loading Word2Vec object from ./code/dataProcess/save_w2v_model/w2v_model.md
+[Fri, 24 Sep 2021 10:07:23] INFO [_load_specials: utils.py, 465] loading wv recursively from ./code/dataProcess/save_w2v_model/w2v_model.md.wv.* with mmap=None
+[Fri, 24 Sep 2021 10:07:23] INFO [_load_specials: utils.py, 503] setting ignored attribute vectors_norm to None
+[Fri, 24 Sep 2021 10:07:23] INFO [_load_specials: utils.py, 465] loading vocabulary recursively from ./code/dataProcess/save_w2v_model/w2v_model.md.vocabulary.* with mmap=None
+[Fri, 24 Sep 2021 10:07:23] INFO [_load_specials: utils.py, 465] loading trainables recursively from ./code/dataProcess/save_w2v_model/w2v_model.md.trainables.* with mmap=None
+[Fri, 24 Sep 2021 10:07:23] INFO [_load_specials: utils.py, 503] setting ignored attribute cum_table to None
+[Fri, 24 Sep 2021 10:07:23] INFO [load: utils.py, 437] loaded ./code/dataProcess/save_w2v_model/w2v_model.md
+[Fri, 24 Sep 2021 10:07:23] DEBUG [initialize: __init__.py, 113] Building prefix dict from the default dictionary ...
+[Fri, 24 Sep 2021 10:07:23] DEBUG [initialize: __init__.py, 133] Loading model from cache /tmp/jieba.cache
+[Fri, 24 Sep 2021 10:07:24] DEBUG [initialize: __init__.py, 165] Loading model cost 1.334 seconds.
+[Fri, 24 Sep 2021 10:07:24] DEBUG [initialize: __init__.py, 166] Prefix dict has been built successfully.
+[Fri, 24 Sep 2021 10:07:24] INFO [init_sims: keyedvectors.py, 1353] precomputing L2-norms of word weight vectors
+[Fri, 24 Sep 2021 10:10:31] INFO [<module>: train_model.py, 59] pid:22729
+[Fri, 24 Sep 2021 10:10:41] INFO [load: utils.py, 431] loading Word2Vec object from ./code/dataProcess/save_w2v_model/w2v_model.md
+[Fri, 24 Sep 2021 10:10:42] INFO [_load_specials: utils.py, 465] loading wv recursively from ./code/dataProcess/save_w2v_model/w2v_model.md.wv.* with mmap=None
+[Fri, 24 Sep 2021 10:10:42] INFO [_load_specials: utils.py, 503] setting ignored attribute vectors_norm to None
+[Fri, 24 Sep 2021 10:10:42] INFO [_load_specials: utils.py, 465] loading vocabulary recursively from ./code/dataProcess/save_w2v_model/w2v_model.md.vocabulary.* with mmap=None
+[Fri, 24 Sep 2021 10:10:42] INFO [_load_specials: utils.py, 465] loading trainables recursively from ./code/dataProcess/save_w2v_model/w2v_model.md.trainables.* with mmap=None
+[Fri, 24 Sep 2021 10:10:42] INFO [_load_specials: utils.py, 503] setting ignored attribute cum_table to None
+[Fri, 24 Sep 2021 10:10:42] INFO [load: utils.py, 437] loaded ./code/dataProcess/save_w2v_model/w2v_model.md
+[Fri, 24 Sep 2021 10:10:42] DEBUG [initialize: __init__.py, 113] Building prefix dict from the default dictionary ...
+[Fri, 24 Sep 2021 10:10:42] DEBUG [initialize: __init__.py, 133] Loading model from cache /tmp/jieba.cache
+[Fri, 24 Sep 2021 10:10:43] DEBUG [initialize: __init__.py, 165] Loading model cost 1.029 seconds.
+[Fri, 24 Sep 2021 10:10:43] DEBUG [initialize: __init__.py, 166] Prefix dict has been built successfully.
+[Fri, 24 Sep 2021 10:10:43] INFO [init_sims: keyedvectors.py, 1353] precomputing L2-norms of word weight vectors
