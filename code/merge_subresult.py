@@ -15,7 +15,7 @@ for k in ['k1', 'k2', 'k3', 'k4', 'k5', 'q']:
 
 test_df = pd.read_csv('./datasets/test_data.csv')
 test_df['KnowledgeID'] = test_df[['TestQuestionID', 'k_Level']].apply(lambda x: result_dict[str(x[0])+x[1]], axis=1)
-# test_df = know_map.main(test_df)  
+# test_df = know_map.main(test_df)  # 这部分代码由队友完成，所以无法开源，敬请谅解。
 test_df['q_Level'] = test_df[['TestQuestionID', 'q_Level']].apply(lambda x: 
                             int(x[1]) if x[1]==-1 else int(result_dict[str(int(x[0]))]), axis=1)
 
